@@ -78,6 +78,9 @@
     <Content Include="0518-1-table.aspx" />
     <Content Include="0518-2-updateTable.aspx" />
     <Content Include="0518-3-deleteTable.aspx" />
+    <Content Include="0525-datalist.aspx" />
+    <Content Include="0525-gridview-2.aspx" />
+    <Content Include="0525-gridview.aspx" />
     <Content Include="dbConnection.aspx" />
     <Content Include="repeater.aspx" />
     <Content Include="select.aspx" />
@@ -104,6 +107,27 @@
     </Compile>
     <Compile Include="0518-3-deleteTable.aspx.designer.cs">
       <DependentUpon>0518-3-deleteTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="0525-datalist.aspx.cs">
+      <DependentUpon>0525-datalist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="0525-datalist.aspx.designer.cs">
+      <DependentUpon>0525-datalist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="0525-gridview-2.aspx.cs">
+      <DependentUpon>0525-gridview-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="0525-gridview-2.aspx.designer.cs">
+      <DependentUpon>0525-gridview-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="0525-gridview.aspx.cs">
+      <DependentUpon>0525-gridview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="0525-gridview.aspx.designer.cs">
+      <DependentUpon>0525-gridview.aspx</DependentUpon>
     </Compile>
     <Compile Include="dbConnection.aspx.cs">
       <DependentUpon>dbConnection.aspx</DependentUpon>
