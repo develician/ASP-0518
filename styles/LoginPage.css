@@ -1,0 +1,90 @@
+﻿.LoginForm {
+    width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@media screen and (max-width: 1024px) {
+    .LoginForm {
+        width: 80%;
+    }
+}
+
+.Contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginLogo {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.Line {
+    display: flex;
+    flex-direction: column;
+}
+
+.Label {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.InputWrapper {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.Input {
+    flex: 1;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+.Line + .Line {
+    margin-top: 2rem;
+}
+
+.ButtonWrapper {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.ErrorLabel {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: red;
+}
+
+.LoginButton {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background: #868e96;
+    cursor: pointer;
+}
+
+    .LoginButton:hover {
+        background: #adb5bd;
+    }
+
+    .LoginButton:active {
+        background: #868e96;
+    }
+
+.Description{
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.Link {
+    color: #845ef7;
+}

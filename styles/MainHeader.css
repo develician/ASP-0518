@@ -1,0 +1,29 @@
+﻿.MainHeaderForm {
+    background: #da77f2;
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+}
+
+.Menus {
+    margin-left: auto;
+}
+
+.Menu {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border: 2px solid white;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    border-radius: 2px;
+}

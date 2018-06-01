@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="0601-master.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -82,8 +83,17 @@
     <Content Include="0525-gridview-2.aspx" />
     <Content Include="0525-gridview.aspx" />
     <Content Include="dbConnection.aspx" />
+    <Content Include="ex_maex01.aspx" />
+    <Content Include="ex_maex02.aspx" />
+    <Content Include="Masters\HomePage.aspx" />
+    <Content Include="Masters\LoginPage.aspx" />
+    <Content Include="Masters\RegisterPage.aspx" />
     <Content Include="repeater.aspx" />
     <Content Include="select.aspx" />
+    <Content Include="styles\Base.css" />
+    <Content Include="styles\LoginPage.css" />
+    <Content Include="styles\MainFooterForm.css" />
+    <Content Include="styles\MainHeader.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -129,12 +139,54 @@
     <Compile Include="0525-gridview.aspx.designer.cs">
       <DependentUpon>0525-gridview.aspx</DependentUpon>
     </Compile>
+    <Compile Include="0601-master.Master.cs">
+      <DependentUpon>0601-master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="0601-master.Master.designer.cs">
+      <DependentUpon>0601-master.Master</DependentUpon>
+    </Compile>
     <Compile Include="dbConnection.aspx.cs">
       <DependentUpon>dbConnection.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="dbConnection.aspx.designer.cs">
       <DependentUpon>dbConnection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex_maex01.aspx.cs">
+      <DependentUpon>ex_maex01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex_maex01.aspx.designer.cs">
+      <DependentUpon>ex_maex01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex_maex02.aspx.cs">
+      <DependentUpon>ex_maex02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex_maex02.aspx.designer.cs">
+      <DependentUpon>ex_maex02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\RegisterPage.aspx.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\RegisterPage.aspx.designer.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="repeater.aspx.cs">

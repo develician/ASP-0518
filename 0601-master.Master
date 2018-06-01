@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="0601-master.master.cs" Inherits="_0511._0601_master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="~/styles/MainHeader.css" />
+    <link rel="stylesheet" href="~/styles/MainFooterForm.css" />
+    <link rel="stylesheet" href="~/styles/Base.css" />
+    <link rel="stylesheet" href="~/styles/LoginPage.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="Body">
+        <div class="MainHeaderForm">
+            <a href="/Masters/HomePage.aspx" class="Logo">Master Page
+            </a>
+            <div class="Menus">
+                <a href="/Masters/HomePage.aspx" class="Menu">Home</a>
+                <a href="/Masters/LoginPage.aspx" class="Menu">로그인/회원가입</a>
+            </div>
+        </div>
+        <form id="form1" runat="server" class="Main">
+            <div>
+
+                <p>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </p>
+            </div>
+        </form>
+        <div class="MainFooterForm">
+            <div class="FooterLogo">
+                <div class="LogoText">
+                    Master Page
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

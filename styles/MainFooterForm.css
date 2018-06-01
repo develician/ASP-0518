@@ -1,0 +1,24 @@
+﻿.MainFooterForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.FooterLogo {
+    background: #adb5bd;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoText {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    user-select: none;
+    
+}
