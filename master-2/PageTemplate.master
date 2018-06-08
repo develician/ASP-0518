@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/SimpleTemplate.Master" AutoEventWireup="true" CodeBehind="PageTemplate.master.cs" Inherits="_0511.master_2.PageHeader" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="PageHeader" runat="server">
+    <div class="Header">
+        <div class="Logo">
+            Logo
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="PageMain" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="PageMain">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="PageFooter" runat="server">
+    <div class="Footer">
+        Footer
+    </div>
+</asp:Content>

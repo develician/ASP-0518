@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SimpleTemplate.master.cs" Inherits="_0511.SimpleTemplate" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="PageTemplate">
+            <div class="PageHeader">
+                <asp:ContentPlaceHolder ID="PageHeader" runat="server">
+                    상단 영역
+                </asp:ContentPlaceHolder>
+            </div>
+            <main>
+                <asp:ContentPlaceHolder ID="PageMain" runat="server">
+                    컨텐트
+                </asp:ContentPlaceHolder>
+            </main>
+            <div class="PageFooter">
+                <asp:ContentPlaceHolder ID="PageFooter" runat="server">
+                    푸터
+                </asp:ContentPlaceHolder>
+            </div>
+
+
+        </div>
+    </form>
+</body>
+</html>

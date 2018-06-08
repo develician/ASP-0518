@@ -67,7 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="0601-master.Master" />
+    <Content Include="master-2\Main.aspx" />
+    <Content Include="master-2\PageTemplate.master" />
     <None Include="packages.config" />
+    <Content Include="SimpleTemplate.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,6 +85,7 @@
     <Content Include="0525-datalist.aspx" />
     <Content Include="0525-gridview-2.aspx" />
     <Content Include="0525-gridview.aspx" />
+    <Content Include="ConnectionStringTesting.aspx" />
     <Content Include="dbConnection.aspx" />
     <Content Include="ex_maex01.aspx" />
     <Content Include="ex_maex02.aspx" />
@@ -146,6 +150,13 @@
     <Compile Include="0601-master.Master.designer.cs">
       <DependentUpon>0601-master.Master</DependentUpon>
     </Compile>
+    <Compile Include="ConnectionStringTesting.aspx.cs">
+      <DependentUpon>ConnectionStringTesting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConnectionStringTesting.aspx.designer.cs">
+      <DependentUpon>ConnectionStringTesting.aspx</DependentUpon>
+    </Compile>
     <Compile Include="dbConnection.aspx.cs">
       <DependentUpon>dbConnection.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -166,6 +177,20 @@
     </Compile>
     <Compile Include="ex_maex02.aspx.designer.cs">
       <DependentUpon>ex_maex02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master-2\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master-2\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master-2\PageTemplate.master.cs">
+      <DependentUpon>PageTemplate.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master-2\PageTemplate.master.designer.cs">
+      <DependentUpon>PageTemplate.master</DependentUpon>
     </Compile>
     <Compile Include="Masters\HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
@@ -203,6 +228,16 @@
     <Compile Include="select.aspx.designer.cs">
       <DependentUpon>select.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SimpleTemplate.Master.cs">
+      <DependentUpon>SimpleTemplate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SimpleTemplate.Master.designer.cs">
+      <DependentUpon>SimpleTemplate.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="master-2\styles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
